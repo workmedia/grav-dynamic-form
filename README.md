@@ -64,9 +64,9 @@ class SitePlugin extends Plugin
 ## Example of usage in a form:
 
 After creating the function (in my case a static method), you should pass the function name as a string to the `data-fields@` arguments:
-[0] page_path: path to the page markdown, where we can find the frontmatter and the content.
-[1] property_path: path to the property inside the page markdown, e.g. "header.title".
-[2] map_func_path: path to the function that converts the property to a form attribute.
+- [0] page_path: path to the page markdown, where we can find the frontmatter and the content.
+- [1] property_path: path to the property inside the page markdown, e.g. "header.title".
+- [2] map_func_path: path to the function that converts the property to a form attribute.
 
 
 ```yaml
